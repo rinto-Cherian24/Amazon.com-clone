@@ -1,0 +1,167 @@
+ *{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+ }
+ .navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 60px;
+    width: 130px;
+    margin-top: 10px;
+}
+.logo{
+    background-image: url("/amzlogo2.png");
+    background-size: cover;
+    height: 50px;
+    width: 130px;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border :hover{
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+.navaddress{
+    width: 75px;
+}
+.address1{ 
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.address2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 630px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    border-top-left-radius: 6px ;
+    border-bottom-left-radius: 6px;
+    border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.18rem;
+    background-color: #febd68;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #0f1111;
+}
+
+/* box 4 */
+.lang-box{
+    height: 65px;
+    width: 55px;
+}
+.language{
+    height: 20px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.us-flag{
+    background-image: url("united-states.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 45px;
+}
+.en{
+    color: #f3f3f3;
+    font-weight: 600;
+}
+
+/* box 5 */
+.account-box{
+    height: 60px;
+    width: 160px;
+    margin-top: 15px;
+}
+.account-inner{
+    display: flex;
+    align-items: center;
+}
+.accounts{
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+/* box 6 */
+.return-box{
+    height: 60px;
+    width: 80px;
+    margin-top: 15px;
+}
+.returns{
+    font-size: 16px;
+    color: #ffffff;
+}
+.orders
+{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* box 7 */
+
+.nav-cart i{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.nav-cart{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.zero{
+    background-color: #0f1111;
+    color: orange;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
