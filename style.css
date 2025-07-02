@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
@@ -147,6 +147,28 @@
 }
 
 /* box 7 */
+/* .cart-box{
+    width: 60px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+}
+.zero{
+    color: #f08804;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cart-logo{
+    width: 100%;
+
+}
+.cart{
+    font-size: 18px;
+    font-weight: 400;
+} */
 
 .nav-cart i{
     font-size: 35px;
@@ -164,4 +186,120 @@
     justify-content: center;
     align-items: center;
     margin-right: 24px;
+}
+
+/* panel */
+
+.panel{
+    height: 45px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.panel-all{
+    margin-right: 30px;
+}
+
+/* hero-section */
+
+.hero-section{
+    background-image: url("/kitchenpic.jpg");
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 95%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    text-decoration: none;
+    color: #007185  ;
+}
+
+/* shop-section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d681ff ;
+    height: 500px;
+}
+.gaming-box{
+    background-color: #ffffff;
+    width: 32%;
+   
+}
+.home-box{
+    background-color: #ffffff;
+    width: 31%;
+
+}
+.kitchen-box{
+    background-color: #ffffff;
+    width: 31%;
+}
+.gb-h{
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.gaming-img{
+    height: 90%;
+    background-image: url(/gaming.jpg);
+    margin-top: 25px;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.hb-h{
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.cleaningtoolsimg{
+     height: 90%;
+    background-image: url(/cleaning.jpg);
+    margin-top: 25px;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.kb-h{
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.kitchenboximg{
+     height: 90%;
+    background-image: url(/kettles.jpg);
+    margin-top: 25px;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 30px;
 }
